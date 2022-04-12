@@ -4,7 +4,7 @@
 #
 Name     : pypi-lark_parser
 Version  : 0.12.0
-Release  : 46
+Release  : 47
 URL      : https://files.pythonhosted.org/packages/5a/ee/fd1192d7724419ddfe15b6f17d1c8742800d4de917c0adac3b6aaf22e921/lark-parser-0.12.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/5a/ee/fd1192d7724419ddfe15b6f17d1c8742800d4de917c0adac3b6aaf22e921/lark-parser-0.12.0.tar.gz
 Summary  : a modern parsing library
@@ -14,9 +14,6 @@ Requires: pypi-lark_parser-license = %{version}-%{release}
 Requires: pypi-lark_parser-python = %{version}-%{release}
 Requires: pypi-lark_parser-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: lark-parser
-Provides: lark-parser-python
-Provides: lark-parser-python3
 
 %description
 Lark is a modern general-purpose parsing library for Python.
@@ -59,7 +56,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641452933
+export SOURCE_DATE_EPOCH=1649778906
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
