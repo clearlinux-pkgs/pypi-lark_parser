@@ -7,7 +7,7 @@
 #
 Name     : pypi-lark_parser
 Version  : 1.2.2
-Release  : 62
+Release  : 63
 URL      : https://github.com/lark-parser/lark/archive/1.2.2/lark-1.2.2.tar.gz
 Source0  : https://github.com/lark-parser/lark/archive/1.2.2/lark-1.2.2.tar.gz
 Summary  : a modern parsing library
